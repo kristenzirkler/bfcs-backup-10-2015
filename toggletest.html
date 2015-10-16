@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>Tech Chorus - Hiding Input Elements In A Div With jQuery</title>
+<!-- Copyright - Sudheer .S - http://sudheer.net !-->
+<script type="text/javascript" src="jquery-latest.js"></script>          
+
+<script type="text/javascript">
+function toggleStatus() {
+    if ($('#toggleElement').is(':checked')) {
+        $('#elementsToOperateOn :input').attr('disabled', true);
+    } else {
+        $('#elementsToOperateOn :input').removeAttr('disabled');
+    }   
+}
+</script>
+
+</head>
+
+<body>
+<p>
+This is our sample page. The article can be found at <a href="http://techchorus.net/disable-and-enable-input-elements-div-block-using-jquery">Tech Chorus</a>
+</p>
+
+<form method="post" action="">
+    <p>
+        When you click the below button, all the input elements in the div are disabled, if they are enabled and vice versa.
+    </p>
+    <p>
+    Do you have a passenger?: No<input id="toggleElement" type="radio" name="toggle" onchange="toggleStatus()"  /> Yes<input id="toggleElement" type="radio" name="toggle" onchange="toggleStatus()" />
+    </p>
+    <div id="elementsToOperateOn">
+        Passenger <br />
+       
+        
+        Passenger Lunch : <input type="radio" name="PassLunch" value="Hamburger" /> <input type="radio" name="PassLunch" value="BBQ Pork" /><br />
+        Passendger T-Shirt Size: <select name="PassShirt">
+                            <option>Mens Small</option>
+                            <option>Mens Medium</option>
+                        </select>
+    </div>
+</form>
+
+</body>
+</html>
+

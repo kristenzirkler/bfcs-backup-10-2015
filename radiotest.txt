@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="FormManager.js">
+/****************************************************
+* Form Dependency Manager- By Twey- http://www.twey.co.uk
+* Visit Dynamic Drive for this script and more: http://www.dynamicdrive.com
+****************************************************/
+</script>
+
+<script type="text/javascript">
+window.onload = function() {
+    setupDependencies('weboptions'); //name of form(s). Seperate each with a comma (ie: 'weboptions', 'myotherform' )
+  };
+</script>
+</head>
+
+<body>
+<form action="" name="weboptions">
+  <p>
+    <label>Yes
+    <input type="radio" name="risk" value="Yes"></label>
+    <label>No
+    <input name="risk" type="radio" value="No" checked="checked">
+    </label>
+   <p>
+    <label style="margin-bottom: 1em; padding-bottom: 1em; border-bottom: 3px silver groove;"><input type="hidden" class="DEPENDS ON risk BEING Yes OR risk BEING No"></label>
+<label>Please specify your risk type:<br />
+<input type="radio" name="risktype" value="pregnant" class="DEPENDS ON risk BEING Yes">Pregnant Women<br />
+<input type="radio" name="risktype" value="with_infant" class="DEPENDS ON risk BEING Yes">Living with or caring for infants younger than 6 months<br />
+<input type="radio" name="risktype" value="health_care" class="DEPENDS ON risk BEING Yes">Health care and emergency medical Personnel<br />
+<input type="radio" name="risktype" value="6mos_24" class="DEPENDS ON risk BEING Yes">Anyone from age 6 months to age 24<br />
+<input type="radio" name="risktype" value="25_64" class="DEPENDS ON risk BEING Yes">Anyone 25 to 64 with certain chronic medical conditions or a weakened immune system<br />
+</label>
+  </p>
+</form>
+</body>
+</html>
