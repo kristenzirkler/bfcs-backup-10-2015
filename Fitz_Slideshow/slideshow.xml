@@ -1,0 +1,33 @@
+<AlbumBook ver='1.5' title='Merry%5FLarry%5FFitzgerald' description='Arizona Cardinals All%2DPro Larry Fitzgerald hosts Christmas party for 250 children at BFCS' firstAlbum='0' width='600' height='400' showThumbnails='true' thumbWidth='80' thumbHeight='60' autoStart='true' allowClick='true' clickAction='_blank' playerName='Player - Black (SPRY/HTML)'>
+	<Album title='fitz' description='' path='fitz' hasThumb='false' thumbSrc='' hasBg='false' bgSrc='' bgScale='0' interval='5' useTransition='true' transType='Fade' transTime='2' firstImage='0' dispSequence='0'>
+		<Slide src='002.jpg' caption='Signing a giant Thank You Card for Larrys Generosity.' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='003.jpg' caption='The kids all signed the giant card' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='004.jpg' caption='More signatures on the Thank You Card.' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='010.jpg' caption='A mountain of new gym bags for the kids was under Larrys banner' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='021.jpg' caption='Several organizations donated their time talent and gifts' width='600' height='736' thumbWidth='49' thumbHeight='60'/>
+		<Slide src='026.jpg' caption='Just hangin out...' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='027.jpg' caption='BFCS staff were part of the fun too!' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='033.jpg' caption='The Thank You Card was two feet tall and three feet wide!' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='046.jpg' caption='Everyone enjoyed a great meal!' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='050.jpg' caption='It was all you can eat--for everyone!' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='069.jpg' caption='A great dinner preceded the show' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='078.jpg' caption='Its magic!' width='267' height='400' thumbWidth='40' thumbHeight='60'/>
+		<Slide src='087.jpg' caption='How did he do that?' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='118.jpg' caption='A junior magician listens intently!' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='123.jpg' caption='Enjoying the show!' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='158.jpg' caption='Big Red was there too!' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='162.jpg' caption='May I have this dance?' width='267' height='400' thumbWidth='40' thumbHeight='60'/>
+		<Slide src='167.jpg' caption='Dont be afraid--Im only a 6-foot bird in a Santa suit!' width='267' height='400' thumbWidth='40' thumbHeight='60'/>
+		<Slide src='182.jpg' caption='Larry Fitzgerald--the guest of honor!' width='267' height='400' thumbWidth='40' thumbHeight='60'/>
+		<Slide src='192.jpg' caption='A very dapper Larry answered questions.' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='195.jpg' caption='Preparing to give Larry a sincere Thank You from all.' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='198.jpg' caption='They dont even make cards this big in the NFL!' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='203.jpg' caption='Thanks Larry!' width='267' height='400' thumbWidth='40' thumbHeight='60'/>
+		<Slide src='209.jpg' caption='Larry answered questions from the crowd.' width='267' height='400' thumbWidth='40' thumbHeight='60'/>
+		<Slide src='226.jpg' caption='Posing for photos!' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='229.jpg' caption='Now thats an autograph!' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='242.jpg' caption='BFCS staff say, Thanks Larry!' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='265.jpg' caption='Larry with a future NFL player?' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+		<Slide src='268.jpg' caption='What could be better than a pink football autographed by Larry?' width='600' height='400' thumbWidth='80' thumbHeight='53'/>
+	</Album>
+</AlbumBook>

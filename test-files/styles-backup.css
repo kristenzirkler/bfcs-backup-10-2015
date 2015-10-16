@@ -1,0 +1,721 @@
+
+@font-face {
+    font-family: 'oswaldbold';
+    src: url('../fonts/oswald-bold-webfont.eot');
+    src: url('../fonts/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-bold-webfont.woff') format('woff'),
+         url('../fonts/oswald-bold-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-bold-webfont.svg#oswaldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'oswaldbook';
+    src: url('../fonts/oswald-regular-webfont.eot');
+    src: url('../fonts/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-regular-webfont.woff') format('woff'),
+         url('../fonts/oswald-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-regular-webfont.svg#oswaldbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oswaldlight';
+    src: url('../fonts/oswald-light-webfont.eot');
+    src: url('../fonts/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-light-webfont.woff') format('woff'),
+         url('../fonts/oswald-light-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-light-webfont.svg#oswaldlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/******************
+GLOBAL
+******************/
+
+ul li {
+	list-style: none;
+}
+.padding-left {
+	padding-left: 3%;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-right: 14px solid #fff;
+	border-bottom: 7px solid transparent;
+	float: left;
+	margin-left: 20%;
+	margin-top: 2%;  /*MW added to address arrows on mobile*/
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-left: 14px solid #fff;
+	border-bottom: 7px solid transparent;
+	float: right;
+	margin-right: 20%;
+	margin-top: 2%; /*MW added to address arrows on mobile*/
+
+}
+
+@media screen and (max-width: 70em) {
+	.padding-left {
+		padding-left: 0;
+	}
+}
+
+/******************
+CORE PURPLE
+******************/
+
+#core-purple header {
+	background: #986899;
+}
+#core-purple header a:hover {
+	color: #341c34;
+}
+#core-purple h2 {	
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family: 'oswaldbold';
+	letter-spacing: 1px;
+	color: #fff;
+	padding: 5px 0 5px 0;
+}
+#core-purple h4 {
+	font-size: 30px;
+	font-family: 'oswaldlight';
+	margin-bottom: 0;
+}
+#core-purple h5 {
+	font-size: 43px;
+	font-family: 'oswaldbold';
+	text-transform: uppercase;
+	margin-top: 0;
+	color: #5d2f5e;
+}
+#core-purple footer {
+	background: #341c34;	
+}
+#core-purple footer a:hover {
+	color: #986899;
+}
+#core-purple footer .large-6 a {
+	background: #986899;
+}
+#core-purple footer .large-6 a:hover {
+	color: #fff;
+}
+#core-purple .seek-or-help .large-6 {
+	background: #341c34;
+}
+#core-purple .donate-button  {
+	background: #341c34;
+	padding: 3% 0 2% 0;
+	height: 107px;
+}
+#core-purple .donate h3 {
+	color: #5d2f5e;
+}
+#core-purple .donate-button h3 {
+	color: #fff;
+}
+#core-purple p a {
+	color: #986899;
+	text-decoration: underline;
+}
+
+/******************
+CORE BLACK
+******************/
+
+#core-black header {
+	background: #000;
+}
+#core-black header a:hover {
+	color: #a9aba1;
+}
+#core-black h2 {	
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family: 'oswaldbold';
+	letter-spacing: 1px;
+	color: #fff;
+}
+#core-black h4 {
+	font-size: 30px;
+	font-family: 'oswaldlight';
+	margin-bottom: 0;
+}
+#core-black h5 {
+	font-size: 43px;
+	font-family: 'oswaldbold';
+	text-transform: uppercase;
+	margin-top: 0;
+	color: #000;
+}
+#core-black footer {
+	background: #000;	
+}
+#core-black footer a:hover {
+	color: #a9aba1;
+}
+#core-black footer .large-6 a {
+	background: #a9aba1;
+}
+#core-black footer .large-6 a:hover {
+	color: #fff;
+}
+#core-black .seek-or-help .large-6 {
+	background: #000;
+}
+#core-black .donate-button  {
+	background: #000;
+	padding: 3% 0 2% 0;
+	height: 107px;
+}
+#core-black .donate h3 {
+	color: #000;
+}
+#core-black .donate-button h3 {
+	color: #fff;
+}
+#core-black p a {
+	color: #a9aba1;
+	text-decoration: underline;
+}
+
+/******************
+SERVICE GREEN
+******************/
+
+#service-green header {
+	background: #175448;
+}
+#service-green footer {
+	background: #175448;	
+}
+#service-green footer .large-6 a {
+	background: #60c7b3;
+}
+#service-green .service-choose .service-choose-button:hover {
+	background: #175448;
+	cursor: pointer;
+}
+#service-green .service-choose .service-choose-button:hover h2 {
+	color: #fff;
+}
+#service-green .service-choose .service-choose-button:hover p {
+	color: #fff;
+}
+#service-green .service-choose {
+	background: #6accba;
+}
+#service-green .service-choose h2 {
+	color: #175448;
+}
+#service-green .service-choose p {
+	color: #175448;
+}
+#service-green h3 {
+	color: #175448;
+}
+#service-green em {
+	color: #175448;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+}
+
+/******************
+SERVICE BLACK
+******************/
+
+#service-black header {
+	background: #000;
+}
+#service-black footer {
+	background: #000;	
+}
+#service-black footer .large-6 a {
+	background: #a9aba1;
+}
+#service-black footer li a {
+	color: #a9aba1;
+}
+#service-black footer address, #service-blue footer p, #service-blue footer h6 {
+	color: #a9aba1;
+}
+#service-black footer .large-6 a {
+	background: #a9aba1;
+}
+#service-black .service-choose .service-choose-button:hover {
+	background: #000;
+	cursor: pointer;
+}
+#service-black .service-choose .service-choose-button:hover h2 {
+	color: #fff;
+}
+#service-black .service-choose .service-choose-button:hover p {
+	color: #fff;
+}
+#service-black .service-choose {
+	background: #a9aba1;
+}
+#service-black .service-choose h2 {
+	color: #fff;
+}
+#service-black .service-choose p {
+	color: #fff;
+}
+#service-black h3 {
+	color: #000;
+}
+#service-black em {
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	color: #000;
+}
+
+/******************
+SERVICE BLUE
+******************/
+
+#service-blue header {
+	background: #1b3957;
+}
+#service-blue footer {
+	background: #1b3957;	
+}
+#service-blue footer li a {
+	color: #b6c0cb;
+}
+#service-blue footer address, #service-blue footer p, #service-blue footer h6 {
+	color: #b6c0cb;
+}
+#service-blue footer .large-6 a {
+	background: #b6c0cb;
+}
+#service-blue .service-choose .service-choose-button:hover {
+	background: #1b3957;
+	cursor: pointer;
+}
+#service-blue .service-choose .service-choose-button:hover h2 {
+	color: #fff;
+}
+#service-blue .service-choose .service-choose-button:hover p {
+	color: #fff;
+}
+#service-blue .service-choose {
+	background: #b6c0cb;
+}
+#service-blue .service-choose h2 {
+	color: #fff;
+}
+#service-blue .service-choose p {
+	color: #fff;
+}
+#service-blue h3 {
+	color: #1b3957;
+}
+#service-blue em {
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	color: #1b3957;
+}
+
+/******************
+SERVICE RED
+******************/
+
+#service-red header {
+	background: #7c292c;
+}
+#service-red footer {
+	background: #7c292c;	
+}
+#service-red footer li a {
+	color: #e6b9a8;
+}
+#service-red footer address, #service-red footer p, #service-red footer h6 {
+	color: #e6b9a8;
+}
+#service-red footer .large-6 a {
+	background: #e6b9a8;
+}
+#service-red .service-choose .service-choose-button:hover {
+	background: #7c292c;
+	cursor: pointer;
+}
+#service-red .service-choose .service-choose-button:hover h2 {
+	color: #fff;
+}
+#service-red .service-choose .service-choose-button:hover p {
+	color: #fff;
+}
+#service-red .service-choose {
+	background: #e6b9a8;
+}
+#service-red .service-choose h2 {
+	color: #fff;
+}
+#service-red .service-choose p {
+	color: #fff;
+}
+#service-red h3 {
+	color: #1b3957;
+}
+#service-red em {
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	color: #7c292c;
+}
+
+/******************
+GLOBAL TYPOGRAPHY
+******************/
+
+body {
+	font-size: 100%;
+}
+p {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+.primary-nav a {
+	font-family: 'oswaldlight';
+	font-size: 14px;
+}
+.secondary-nav {
+	font-family: 'oswaldbold';
+}
+.seek-or-help .large-6 p {
+	font-family: 'oswaldlight';
+	font-size: 14px;
+}
+.video-title {
+	font-family: 'oswaldlight';
+}
+
+/******************
+NAVIGATION
+******************/
+.logo {
+	width: 237px;
+	height: 52px;
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin: -17px 0 0 -120px;
+}
+
+.top-nav-wrap {
+	padding-top: 1%;
+}
+.primary-nav a {
+	color: #fff;
+}
+.secondary-nav li a {
+	color: #000;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.primary-nav ul, .secondary-nav ul {
+	display: table;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.primary-nav li {
+	float: left;
+	display: table-cell;
+	padding: 0 1%;
+}
+.secondary-nav ul {
+	margin: 3% auto;
+	text-align: center;
+}
+.secondary-nav li {
+	display: inline-block;
+	padding: 0 2%
+}
+.secondary-nav li:nth-of-type(4) {
+	margin-left: 250px;
+} 
+
+@media screen and (max-width: 70em) {
+	.top-nav-wrap {
+		padding-bottom: 1%;
+	}
+	.logo {
+		width: 237px;
+		height: 52px;
+		display: block;
+		margin: 2% auto 0 auto;
+		position: inherit;		
+	}
+}
+
+@media screen and (max-width: 70em) {
+	.secondary-nav li:nth-of-type(4) {
+		margin-left: 0;		
+	}   
+	.secondary-nav li {
+		margin-bottom: 1%;
+	}
+	.secondary-nav li a {
+		display: block;
+		padding: 2% 0;
+	}
+	.secondary-nav li a:hover {
+		background: #ccc;
+	}
+}
+
+/************************
+HOME PAGE - SEEK OR HELP 
+************************/
+
+.seek-or-help .large-6 {
+	color: #fff;
+	width: 48%;
+	padding: 1% 3% 0 3%;
+}
+.seek-or-help a {
+	color: #fff;
+}
+.seek-or-help h2 {
+	margin: 1% 0 0 0;
+}
+.seek-or-help .large-6:first-of-type p {
+	margin-left: 30%;
+}
+.seek-or-help .large-6:last-of-type p {
+	margin-right: 30%;
+}
+.seek-or-help {
+	position: relative;
+}
+.donate-cta-purple {
+	text-align: center;
+	color: #fff;
+	padding: 15px;
+	display: block;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: 'oswaldbold';
+	letter-spacing: 1px;
+	background: #341c34;
+}
+.core-purple.donate-cta:hover {
+	color: #fff;
+	background: #986899;
+}
+.donate-cta-black {
+	text-align: center;
+	color: #fff;
+	padding: 15px;
+	display: block;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: 'oswaldbold';
+	letter-spacing: 1px;
+	background: #000;
+}
+.donate-cta-black:hover {
+	color: #fff;
+	background: #a9aba1;
+}
+
+
+@media only screen and (max-width: 60em)  {
+	.seek-or-help .large-6 {
+		position: inherit;
+		width: 100%;
+		margin-bottom: 2%;
+	}
+	.seek-or-help img {
+		margin-bottom: 2%;
+	}
+	.seek-or-help .large-6:first-of-type p, .seek-or-help .large-6:last-of-type p {
+		margin: 0 0 4% 0;
+	}
+	.seek-or-help .large-6 .triangle-left {
+		margin-left: 0;
+	}
+	.seek-or-help .large-6 .triangle-right {
+		margin-right: 0;
+	}
+}
+
+/******************
+HOME PAGE - DONATE
+******************/
+
+.donate {
+	border: 1px solid #333;
+	padding: 0;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	overflow: hidden;
+}
+.donate .large-5 {
+	padding-left: 2%;
+}
+.donate .triangle-right {
+	margin-top: 15%;
+}
+.donate h3 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'oswaldbold';
+	padding-top: 2%;
+}
+.donate p {
+	font-size: 14px;
+	font-family: 'oswaldlight';
+	margin-bottom: 0;
+}
+.donate .large-3:last-of-type h3 {
+	color: #fff;
+	font-size: 18px;
+	padding-left: 5%;
+}
+@media screen and (max-width: 68em) {
+	.donate {
+		border: none;
+	}
+	.donate-button {
+		margin-top: 3%;
+	}
+}
+
+/******************
+GLOBAL FOOTER
+******************/
+
+footer {
+	padding-top: 5%;
+	padding-bottom: 3%;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #eaeaea;
+}
+footer h6 {
+	/*color: #9d9e95; adjustment away from grey look to off-white */ 
+ 	color: #eaeaea;
+	font-size: 17px;
+	font-family: 'oswaldlight';
+}
+footer p {
+	/*color: #9d9e95;*/
+	font-family: 'oswaldlight';
+}
+footer ul {
+	margin: 0;
+}
+footer ul li a {
+	font-size: 14px;
+	font-family: 'oswaldlight';
+	/*color: #9d9e95; adjustment away from grey look to off-white */ 
+ 	color: #eaeaea;
+}
+footer .large-6 a {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'oswaldbold';
+	font-size: 26px;
+	display: block;
+	padding: 3% 4%;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 95%;
+}
+footer address {
+	/*color: #9d9e95;*/
+	font-size: 14px;
+	font-family: 'oswaldlight';
+	font-style: normal;
+	margin-top: 5%;
+}
+footer .reservation p {
+	padding-top: 3%;
+}
+footer .copyright {
+	margin-top: 3%;
+}
+
+@media only screen and (max-width: 40em)  {
+	footer {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	footer li {
+		width: 100%;
+		text-align: center;
+	}
+	footer h6 {
+		text-align: center;
+	}
+	footer address {
+		margin: 3% 0;
+	}
+}
+
+/*********************
+SERVICE CHOOSE GLOBAL
+*********************/
+
+.service-choose {
+	margin-bottom: 4%;
+}
+.service-choose-button {
+	padding: 3% 4% 1% 5%;
+}
+.service-choose .service-choose-button h2 {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family: 'oswaldbold';
+	margin-top: 0;
+}
+.service-choose .service-choose-button h2 span {
+	padding-left: 5%;
+}
+.service-choose .service-choose-button p {
+	font-size: 14px;
+	font-family: 'oswaldlight';
+}
+/*******************
+SERVICE INFO GLOBAL
+*******************/
+
+.service-info h3 {
+	font-size: 43px;
+	text-transform: uppercase;
+	font-family: 'oswaldbold';
+}
+.service-info h4 {
+	font-size: 30px;
+	font-family: 'oswaldlight';
+}
+.service-info  {
+	font-family: arial, sans-serif;
+}
+.service-info p {
+	font-size: 14px;
+}
+.service-info li {
+	margin-bottom: 2%;
+	font-size: 14px;
+	list-style: disc;
+}
+.service-info em {
+	font-style: normal;
+	font-family: 'oswaldbold';
+}
